@@ -1,0 +1,12 @@
+// Vitest Snapshot v1
+
+exports[`single task component > should render correctly 1`] = `
+"<div class=\\"placeholder\\" data-v-f2269eac=\\"\\">
+  <div draggable=\\"true\\" data-test=\\"single-task\\" class=\\"single-task\\" data-v-f2269eac=\\"\\">
+    <div data-test=\\"single-task-header\\" class=\\"single-task__header\\" data-v-f2269eac=\\"\\"><span class=\\"text-secondary\\" data-v-f2269eac=\\"\\">Just another task</span><button data-test=\\"btn-remove\\" class=\\"btn btn--remove\\" data-v-f2269eac=\\"\\">
+        <b-icon-trash-stub data-v-f2269eac=\\"\\"></b-icon-trash-stub>
+      </button></div>
+    <div data-test=\\"single-task-body\\" class=\\"single-task__body\\" data-v-f2269eac=\\"\\"><span class=\\"text-secondary\\" data-v-f2269eac=\\"\\">Another Task title column</span></div>
+  </div>
+</div>"
+`;

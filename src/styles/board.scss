@@ -1,0 +1,36 @@
+.columns {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  list-style: none;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100% - 5.6rem);
+
+  &__options {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.adding-bg {
+  display: flex;
+  align-items: center;
+  background: #f4f5f7;
+  padding: 1rem;
+  margin: 0.6rem;
+  border-radius: 6px;
+  height: fit-content;
+}
+
+.right {
+  transition: 0.3s;
+  transform: translateX(280px);
+}
+
+.left {
+  transition: 0.3s;
+  transform: translateX(-280px);
+}

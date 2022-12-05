@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  color: #6b778c;
+}
+
+.heading-primary {
+  margin-bottom: 6rem;
+}
+
+.text-primary {
+  font-size: 1.6rem;
+}
+
+.text-secondary {
+  font-size: 1.4rem;
+}
+
+.btn {
+  all: unset;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  margin: 0.5rem;
+
+  &:is(:hover, :focus) {
+    background-color: rgba(9, 30, 66, 0.08);
+    cursor: pointer;
+  }
+}
+
+svg {
+  font-size: 1.6rem;
+}
+
+input, select {
+  height: 2rem;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 0 1px black;
+  padding: 1.4rem;
+  outline: none;
+
+  &:focus {
+    border: none;
+    box-shadow: 0 0 0 2px #4c9aff;
+  }
+}
+
+.input--error {
+  box-shadow: 0 0 0 1px red;
+}
+// make drag item dissappear when you drag it
+.drag-item {
+  opacity: 0;
+}
+// give transition to everyone when moving items
+.all {
+  transition: 0.3s;
+}

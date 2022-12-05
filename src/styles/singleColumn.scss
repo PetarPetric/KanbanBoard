@@ -1,0 +1,56 @@
+.column {
+  &__wrapper {
+    background: #f4f5f7;
+    min-width: 270px;
+    max-width: 270px;
+    max-height: 80rem;
+    margin: 1rem;
+    border-radius: 6px;
+    height: fit-content;
+  }
+
+  &__header {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+    text-transform: uppercase;
+
+    &__actions {
+      display: flex;
+    }
+  }
+
+  &__body {
+    min-height: 12rem;
+    padding: 0 1rem;
+    overflow: auto;
+    max-height: 75vh;
+    position: relative;
+
+    .actions {
+      display: flex;
+      align-items: center;
+    }
+
+    .add-task {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s;
+
+      .text-secondary {
+        padding-left: 1rem;
+        font-weight: bold;
+      }
+
+      .btn {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}

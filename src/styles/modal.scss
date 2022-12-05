@@ -1,0 +1,40 @@
+.modal {
+  &__wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__container {
+    background-color: white;
+    padding: 2rem 2rem 0 2rem;
+    min-width: 400px;
+    min-height: 500px;
+    position: relative;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__footer {
+    margin-top: auto;
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  &__btn-close {
+    all: unset;
+    position: absolute;
+    right: 24px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

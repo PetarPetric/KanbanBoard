@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`header component > should match snapshot 1`] = `
+"<header class=\\"header\\" data-v-2c8eaea2=\\"\\"><img class=\\"header__logo\\" src=\\"/assets/random-logo.png\\" alt=\\"application logo\\" data-v-2c8eaea2=\\"\\">
+  <h1 data-v-2c8eaea2=\\"\\">Kanban Board</h1>
+</header>"
+`;

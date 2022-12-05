@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`task view component > should render correctly 1`] = `
+"<div class=\\"modal__wrapper\\" data-v-6280910c=\\"\\" data-v-47886999=\\"\\">
+  <div class=\\"modal__container\\" data-v-6280910c=\\"\\"><button class=\\"modal__btn-close\\" data-v-6280910c=\\"\\"><svg width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 16 16\\" fill=\\"currentColor\\" role=\\"img\\" focusable=\\"false\\" data-v-6280910c=\\"\\">
+        <path fill-rule=\\"evenodd\\" d=\\"M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z\\"></path>
+        <path fill-rule=\\"evenodd\\" d=\\"M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z\\"></path>
+      </svg></button>
+    <div class=\\"modal__body\\" data-v-6280910c=\\"\\"></div>
+    <div class=\\"modal__footer\\" data-v-6280910c=\\"\\">
+      <div class=\\"task-details__footer\\" data-v-47886999=\\"\\"><button class=\\"btn btn--cancel\\" data-v-47886999=\\"\\">Cancel</button><button class=\\"btn btn--save\\" data-v-47886999=\\"\\">Save</button></div>
+    </div>
+  </div>
+</div>"
+`;
