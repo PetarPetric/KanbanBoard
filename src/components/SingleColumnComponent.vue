@@ -93,6 +93,7 @@ const addTask = async () => {
     taskTitle.value = "";
     addingNewTask.value = false;
   }
+  fetchTasks();
 };
 
 // Fetch Tasks
@@ -150,6 +151,7 @@ const handleAnimation = computed(() => {
     "
     @dragstart.stop="startDrag(columnData, $event)"
     class="column__wrapper"
+    data-test="column-wrapper"
     :class="[
       {
         'drag-item':
@@ -195,6 +197,7 @@ const handleAnimation = computed(() => {
     </div>
     <div class="column__body">
       <SingleTask
+        @removed-task="fetchTasks"
         v-for="(task, i) in columnTasks"
         :single-task="task"
         :task-column="columnTasks"
