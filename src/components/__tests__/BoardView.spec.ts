@@ -23,7 +23,7 @@ describe("board view component with zero columns displayed", () => {
 
   it('initializes with zero elements displayed', () => {
     // check that zero cards are displayed
-    expect(wrapper.findAll('.column__wrapper').length).toEqual(0);
+    expect(wrapper.findAll('[data-test="column-wrapper"]').length).toEqual(0);
     expect(wrapper.findAll('[data-test="btn-add"]').length).toEqual(1)
   })
 });
@@ -62,7 +62,7 @@ describe("board view component with 1 columns in data store", () => {
 
   it('initializes with 1 column displayed', () => {
     // check that 1 card cards is displayed
-    expect(wrapper.findAll('.column__wrapper').length).toEqual(1);
+    expect(wrapper.findAll('[data-test="column-wrapper"]').length).toEqual(1);
   })
 
   it('adds new column action', async () => {
