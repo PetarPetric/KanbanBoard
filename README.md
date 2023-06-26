@@ -30,7 +30,7 @@ npm install
 ### Start Json server
 
 ```
-json-server db.json
+json-server --watch db.json
 ```
 
 ### Compile and Hot-Reload for Development
